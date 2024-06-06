@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.first_page{
+    height: 100vh;
+    width: 100vw;
+    background-color: skyblue;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.first_page .intro_line{
+    height: 70vh;
+    width: 100vw;
+    background: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.intro_line h1{
+    color: aliceblue;
+    font-size: 6vw;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.scroll_down{
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation: indi 0.5s linear infinite;
+}
+
+@keyframes indi {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+
+.second_page{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.second_page .hi_line {
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+.second_page .hi_line .one{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    top: 20px;
+    left: 10px;
+    z-index: 5;
+}
+
+.second_page .hi_line .two{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    bottom: 20px;
+    right: 10px;
+    z-index: 5;
+}
+.second_page .hi_line h1{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.second_page .first_img{
+    height: 60vh;
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    z-index: 1;
+}
+
+
+
+
+.third_page{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.third_page .hi_line {
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+.third_page .hi_line .one{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    top: 20px;
+    left: 10px;
+    z-index: 5;
+}
+
+.third_page .hi_line .two{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    bottom: 20px;
+    right: 10px;
+    z-index: 5;
+}
+.third_page .hi_line h1{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.third_page .first_img{
+    height: 60vh;
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    z-index: 1;
+}
+
+
+
+
+
+.forth_page{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.forth_page .hi_line {
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+.forth_page .hi_line .one{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    top: 20px;
+    left: 10px;
+    z-index: 5;
+}
+
+.forth_page .hi_line .two{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    bottom: 20px;
+    right: 10px;
+    z-index: 5;
+}
+.forth_page .hi_line h1{
+    color: aliceblue;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.forth_page .first_img{
+    height: 60vh;
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    z-index: 1;
+}
+
+
+
+.fifth_page{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fifth_page .hi_line {
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+.fifth_page .hi_line .one{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    top: 20px;
+    left: 10px;
+    z-index: 5;
+}
+
+.fifth_page .hi_line .two{
+    height: 45vh;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    bottom: 20px;
+    right: 10px;
+    z-index: 5;
+}
+.fifth_page .hi_line h1{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fifth_page .first_img{
+    height: 60vh;
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    z-index: 1;
+}
